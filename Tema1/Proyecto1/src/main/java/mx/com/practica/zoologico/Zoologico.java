@@ -1,5 +1,7 @@
 package mx.com.practica.zoologico;
 
+import mx.com.practica.animales.Animal;
+
 public class Zoologico {
 	
 	private Animal[] zoologico;
@@ -16,6 +18,18 @@ public class Zoologico {
 		this.zoologico = zoologico;
 	}
 	
+	public void temporadaDeApareamiento(){
+		//TODO
+	}
 	
+	
+	public void temporadaDeExterminio(){
+		//TODO
+		
+	}
+	
+	public void temporadaDeAlimentacion(){
+		//TODO
+	}
 
 }
