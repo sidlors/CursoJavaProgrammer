@@ -1,11 +1,19 @@
 # CursoJavaProgrammer
 [Curso de Certificacion para Java Programmer](https://github.com/sidlors/CursoJavaProgrammer/wiki)
 
-##Temario
+#La Certificacion
 
-# CursoJavaProgrammer
-Curso de Certificacion para Java Programmer
+La certificación Oracle Certified Associate, Java SE 7 Programmer (OCAJP), ya que ésta es un prerrequisito.
 
+Código del examen: 1Z0-803
+Denominación del Examen: Java SE 7 Programmer
+
+Duración: 150 minutos
+Número de preguntas: 90
+Porcentaje Aprobar: 75%
+Nombre de la Certificación: Oracle Certified Associate, Java SE 7 Programmer.
+
+_______________________________________________________________________
 ##Temario
 
 ###Java Class Design 
