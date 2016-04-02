@@ -1,8 +1,10 @@
 package mx.com.practica.animales;
 
 import mx.com.practica.reino.Ave;
+import mx.com.practica.reino.Herbivoro;
 
-public class Gallina extends Animal implements Ave {
+
+public class Gallina extends Animal implements Ave, Herbivoro{
 	
 	
 

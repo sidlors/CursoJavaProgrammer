@@ -30,6 +30,7 @@ public class App {
 		Animal animal=null;
 		Random rand = new Random();
 		int n = rand.nextInt(4) + 1;
+		int s=rand.nextInt(1);
 		
 		switch (n) {
 		case 1:
@@ -48,7 +49,8 @@ public class App {
 			animal=new Rana();
 			break;
 		}
-			
+		
+			animal.setSexo(s);
 		return animal;
 	}
 }

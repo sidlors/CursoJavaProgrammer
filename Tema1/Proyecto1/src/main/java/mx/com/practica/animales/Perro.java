@@ -1,10 +1,31 @@
 package mx.com.practica.animales;
 
 import mx.com.practica.reino.Mamifero;
+import mx.com.practica.reino.Oviparo;
+import mx.com.practica.zoologico.alimento.Alimento;
 
-public class Perro extends Animal implements Mamifero{
+public class Perro extends Animal implements Mamifero,Oviparo{
+	
+	private String nombre;
 	
 	
+	
+	public Perro(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
 	public Perro(){	
 		System.out.println("Perro creado");
 	}
@@ -17,7 +38,7 @@ public class Perro extends Animal implements Mamifero{
 
 
 	@Override
-	Animal procrea(Animal animal) {
+	public Animal procrea(Animal animal) {
 		Animal cachorro = null;
 		if (this.getSexo() == animal.getSexo()) {
 			System.out.println("Se reproduce animal");
@@ -27,6 +48,11 @@ public class Perro extends Animal implements Mamifero{
 		}
 		return cachorro;
 
+	}
+	
+	@Override
+	public void alimentarse(double porcion,Alimento alimento) {
+		
 	}
 
 }
